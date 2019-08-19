@@ -11,6 +11,7 @@ It should be a drop-in replacement for the original, with 100% compatibility.
 All differences can be seen here: 
 https://github.com/obspy/obspy/compare/master...frnhr:develop
 
+* allow use of extended types in model attributes
 
 
 
