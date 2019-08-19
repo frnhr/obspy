@@ -1,3 +1,20 @@
+
+## This fork...
+
+... includes code fixes that make models frm obspy a bit friendlier to extend.
+
+It should be a drop-in replacement for the original, with 100% compatibility.
+
+
+### Changes
+
+All differences can be seen here: (TODO compare link)
+
+
+
+
+-----
+
 <img alt="ObsPy: A Python Toolbox for seismology/seismological observatories." class="right" style="width: 60%" src="https://raw.github.com/obspy/website/master/logo/obspy_logo_full_highres.png" />
 
 [![TravisCI Status](https://travis-ci.org/obspy/obspy.svg?branch=master)](https://travis-ci.org/obspy/obspy)
