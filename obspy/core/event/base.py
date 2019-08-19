@@ -366,7 +366,7 @@ def _event_type_class_factory(class_name, class_attributes=[],
                 return
             attrib_type = self._property_dict[name]
             # If the value is None or already the correct type just set it.
-            if (value is not None) and (type(value) is not attrib_type):
+            if value is not None and not isinstance(value, attrib_type):
                 # If it is a dict, and the attrib_type is no dict, than all
                 # values will be assumed to be keyword arguments.
                 if isinstance(value, dict):
